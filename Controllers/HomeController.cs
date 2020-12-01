@@ -26,5 +26,12 @@ namespace SistemaVentas.Controllers
 
             return View();
         }
+        public ActionResult Nosotros()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
     }
 }
