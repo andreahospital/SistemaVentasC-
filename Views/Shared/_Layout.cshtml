@@ -30,7 +30,11 @@
 
                         <li>@Html.ActionLink("Proveedor", "Index", "Proveedores")</li>
                     }
-                   
+                    @if (Request.IsAuthenticated)
+                    {
+
+                        <li>@Html.ActionLink("Articulo", "Index", "Articulos")</li>
+                    }
 
                 </ul>
                 @Html.Partial("_LoginPartial")
