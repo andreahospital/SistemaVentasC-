@@ -258,6 +258,7 @@
     <Content Include="img\logo.jpg" />
     <Content Include="img\Matias.jpg" />
     <Content Include="img\Sasha.png" />
+    <Content Include="img\Vilma.jpg" />
     <Content Include="Models\Modelo.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Modelo.edmx</DependentUpon>
