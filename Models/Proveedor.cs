@@ -21,4 +21,7 @@ namespace SistemaVentas.Models
         public string Direccion { get; set; }
         public string PersonaContacto { get; set; }
     }
+
+
+
 }

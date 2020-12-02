@@ -20,7 +20,11 @@ namespace SistemaVentas.Controllers
         public ActionResult Index()
         {
             return View(db.Articulo.ToList());
+
         }
+
+
+
 
         [HttpPost]
         public ActionResult Index(String descripcion)
