@@ -16,7 +16,11 @@ namespace SistemaVentas.Controllers
             return View();
         }
 
-       
+        public JsonResult GetClima()
+        {
+            Clima weath = new Clima();
+            return Json(weath.getClima(), JsonRequestBehavior.AllowGet);
+        }
 
         public ActionResult Nosotros()
         {
